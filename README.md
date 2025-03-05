@@ -23,10 +23,16 @@ Board detection: <br>
 -The board is identified using the HSV color space and contour detection; <br>
 -The 4 largest contours are selected as board corners; <br>
 -The playable area is extracted by shifting the coordonates inward; <br>
+
+![Board detection](https://github.com/user-attachments/assets/cc45b324-8e0a-42f4-83c2-4c1172b29da1)
+
 Piece detection: <br>
 -The image is converted to HSV and a mask is applied to tedect added numbers;<br>
 -Each cell is extracted as an individual patch;<br>
 -The brightest patch will be considered the newly added piece;<br>
+
+![Piece deteciton](https://github.com/user-attachments/assets/22b93942-a9f7-4ed1-b22b-c224c7c32cc8)
+
 Number recognition:<br>
 -A template-matching approach with pixel shifts is used;<br>
 -Thresholding and slight rotations are used to improve accuracy;<br>
@@ -37,6 +43,7 @@ Score calculation:<br>
 -Special cells are being handled to restrict possible operations or apply multipliers;<br>
 
 All of these proceudres result in a 99.5% accuracy.
+
 
 
 Different methods have been used to extract relevant information from the given images: 
