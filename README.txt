@@ -7,6 +7,8 @@ A computer vision project that automates the process of calculating the score of
 ## What is Mathable
 
 
+![Image](https://github.com/user-attachments/assets/5226d366-2382-4bea-a0ba-f9fa2fe21bf0)
+
 
 
 
