@@ -1,11 +1,17 @@
-1. Versions:
+# Mathable Score Calculator
 
-numpy: 2.1.3
-scikit-image: 0.24.0
-scipy: 1.14.1
-opencv-python:4.10.0.84
+## About
 
-Full list:
-https://pastebin.com/bF95NXXt
-Solution is found in the results folder.
-Input folder name can be changed at the beginning of the script (line 10)
+A computer vision project that automates the process of calculating the score of a given Mathable game, by detecting newly placed pieces using different image manipulation techniques, such as image sharpening, changing HSV values, and perspective warping
+
+## What is Mathable
+
+
+
+
+
+## Computer vision
+
+
+
+
